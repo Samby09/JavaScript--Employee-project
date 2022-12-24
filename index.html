@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript-EmployeeProject</title>
+</head>
+<body>
+    <h3>Filter ui cards via their profession</h3>
+    <select name="dropdown" id="dropdown">
+        <option disabled selected value="profession">Profession</option>
+        <option value="developer">Developer</option>
+        <option value="admin">Admin</option>
+    </select> <br>
+
+    <div id="result"></div>
+
+    <br>
+    <button id="filterBtn">Filter</button>
+    <br>
+    <br>
+    <h3>Add a new user</h3>
+    <form id="userVal">
+        <label for="name">Enter name</label>
+        <input type="text" id="input-name" name="name">
+        <label for="profession">Profession</label>
+        <input type="text" id="input-profession" name="profession">
+        <label for="age">Enter age</label>
+        <input type="number" id="input-age" name="age">
+    </form>
+    <br>
+    <button id="addBtn">Add User</button>
+    <script src="script.js"></script>
+</body>
+</html>
